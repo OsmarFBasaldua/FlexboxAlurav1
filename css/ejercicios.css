@@ -1,0 +1,24 @@
+.padre{
+    display: flex;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.encabezado{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    margin-bottom: auto;
+    display: flex;
+}
+.menu-item {
+    margin: 5%;
+}
