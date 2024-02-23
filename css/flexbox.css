@@ -7,3 +7,11 @@
 .headerPrincipal-nav{
     display: flex;
 }
+
+.rodapePrincipal .container{
+    display: flex;
+}
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
