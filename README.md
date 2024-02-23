@@ -1,2 +1,2 @@
 # FlexboxAlurav1
- Prcaticas de flexbox en website Alura
+ Prcaticando con flexbox en website Alura
