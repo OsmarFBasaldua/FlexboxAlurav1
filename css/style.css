@@ -209,6 +209,12 @@ body {
 	margin-bottom: 10px;
 }
 
+.rodapePrincipal-patrocinadores .container img{
+	justify-content: center;
+	width: 70%; /* Ancho deseado para los logos */
+    height: auto; /* Mantener la proporción */
+}
+
 @media(min-width: 769px) {
 
 	.container {
@@ -284,8 +290,4 @@ body {
 
 }
 
-.rodapePrincipal-patrocinadores .container img{
-	justify-content: center;
-	width: 70%; /* Ancho deseado para los logos */
-    height: auto; /* Mantener la proporción */
-}
+
