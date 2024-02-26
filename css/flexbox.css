@@ -45,10 +45,18 @@
     width: 23%;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+
+
 /*Responsiv*/
 /* A partir de aquí ya es la parte Responsiva - para que se ve a bien el Mobile*/
 
-headerPrincipal .container {
+.headerPrincipal .container {
     flex-direction: column;
 }
+
+    /*Aqui me quede en el curso*/
 
