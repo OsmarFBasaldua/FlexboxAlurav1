@@ -44,3 +44,11 @@
     display: flex;
     width: 23%;
 }
+
+/*Responsiv*/
+/* A partir de aquí ya es la parte Responsiva - para que se ve a bien el Mobile*/
+
+headerPrincipal .container {
+    flex-direction: column;
+}
+

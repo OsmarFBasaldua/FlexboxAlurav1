@@ -1,5 +1,9 @@
 body {
-	background-color: #FFF;
+	background: rgb(2,0,36);
+	background: -moz-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,20,143,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,20,143,1) 100%);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,20,143,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00148f",GradientType=1);
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 
@@ -8,8 +12,12 @@ body {
 	margin: 0 auto;
 }
 
+.container h2 {
+	color: #fff;
+}
+
 .headerPrincipal {
-	background-color: #FFF;
+	background-color: rgb(2,0,36);
 	padding: 20px 0;
 }
 
@@ -21,7 +29,7 @@ body {
 
 .headerPrincipal-titulo a {
 	text-decoration: none;
-	color: inherit;
+	color: #fff;
 }
 
 .headerPrincipal-nav-link {
